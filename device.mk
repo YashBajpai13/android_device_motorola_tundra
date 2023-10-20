@@ -349,6 +349,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     vendor.qti.hardware.perf@2.2.vendor
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
