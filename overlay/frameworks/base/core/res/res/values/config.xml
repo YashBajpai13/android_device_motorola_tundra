@@ -519,7 +519,8 @@
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
-
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool> 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item> <!-- sensorLocationX -->
@@ -624,7 +625,7 @@
 
     <!-- The default refresh rate -->
     <integer name="config_defaultRefreshRate">120</integer>
-
+    <bool name="config_show_refresh_rate_controls">true</bool>
     <!-- The default peak refresh rate for a given device. Change this value if you want to allow
          for higher refresh rates to be automatically used out of the box -->
     <integer name="config_defaultPeakRefreshRate">144</integer>
@@ -661,6 +662,7 @@
     <bool name="config_zramWriteback">true</bool>
 
     <!-- Defines the sysfs attribute path used by the device
-         to enable/disable DC dimming. -->
+         to enable/disable DC dimming. 
     <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc</string>
+    -->
 </resources>
