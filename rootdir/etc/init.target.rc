@@ -33,6 +33,8 @@ import /vendor/etc/init/hw/init.qti.kernel.rc
 
 on early-init
     wait /sys/devices/soc0/soc_id
+    write /proc/sys/kernel/sched_boost 1
+    write /proc/sys/kernel/sched_energy_aware 0
 
 on init
     # Scheduler uclamp
