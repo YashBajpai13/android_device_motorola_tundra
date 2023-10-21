@@ -3,7 +3,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -337,8 +336,11 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    SettingsOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tundra.mk
+    $(LOCAL_DIR)/lineage_tundra.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_tundra-user \
-    derp_tundra-userdebug \
-    derp_tundra-eng
+    lineage_tundra-user \
+    lineage_tundra-userdebug \
+    lineage_tundra-eng

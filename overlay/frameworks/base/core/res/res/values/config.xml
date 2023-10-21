@@ -665,6 +665,12 @@
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
+    <bool name="config_hasTurboPowerCharger">true</bool>
+    <bool name="config_supportScreenOffUdfps">true</bool>
+    <bool name="config_pocketModeSupported">true</bool>
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
+    <bool name="config_deviceHaveWakeUpProximity">true</bool>
 
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. 
